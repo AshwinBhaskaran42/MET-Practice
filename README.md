@@ -1,17 +1,17 @@
 Python 
 
 30/5 day 2
-3.1.3.1 - case convention
-3.1.3.2 - searching & replacing
-3.1.3.3 - Whitespace handling
-3.1.3.4 - Splitting & Joining
+- case convention
+- searching & replacing
+- Whitespace handling
+- Splitting & Joining
 
 2/6 day3
-3.1.3.5 - Checking string content
-3.1.4.0 - String formatting
-Unpacking Values into Multiple Variables
-Multi-line strings """....."""
-3.1.4.1 - Escape characters
+- Checking string content
+- String formatting
+- Unpacking Values into Multiple Variables
+- Multi-line strings """....."""
+- Escape characters
 
 3/6 day4
 Taking input
