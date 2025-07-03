@@ -1,0 +1,115 @@
+import requests
+
+endpoint= "https://api.datamuse.com/words?ml=i%20am%20student"
+
+response= requests.get(endpoint)
+
+data= response.json()
+
+if response.status_code == 200:
+    for item in data:
+        getting_tags= item.get("tags")
+        first_one= getting_tags[0]
+        print(first_one)
+
+#OUTPUT:
+# results_type:backfill_gloss
+# n
+# adj
+# v
+# n
+# v
+# v
+# adj
+# adj
+# n
+# n
+# v
+# adv
+# n
+# n
+# adv
+# n
+# v
+# v
+# v
+# v
+# v
+# v
+# v
+# n
+# v
+# adj
+# v
+# adj
+# v
+# n
+# n
+# n
+# n
+# v
+# n
+# v
+# v
+# adj
+# n
+# n
+# n
+# v
+# v
+# n
+# v
+# n
+# v
+# n
+# n
+# v
+# n
+# v
+# n
+# v
+# adj
+# adv
+# n
+# n
+# v
+# v
+# n
+# adj
+# v
+# v
+# v
+# v
+# v
+# v
+# n
+# v
+# n
+# n
+# v
+# n
+# n
+# n
+# n
+# n
+# adv
+# adj
+# v
+# adj
+# v
+# adj
+# adj
+# n
+# adj
+# adv
+# n
+# n
+# adj
+# v
+# n
+# v
+# n
+# n
+# v
+# n
+# adj
